@@ -1,0 +1,16 @@
+main {
+    font-size: 16px;
+    color: #303846;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
