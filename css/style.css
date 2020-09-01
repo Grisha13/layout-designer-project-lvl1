@@ -64,12 +64,37 @@ padding: 5px 20px;
     text-decoration: none;
 }
 
+/* Intro */
 
+.section__intro {
+    background: url("../images/banner.png") center no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
 
+.intro {
+    text-align: center;
+}
 
+.intro__img {
+    width: 200px;
+    height: 200px;
+}
 
+.intro__content {
+    color: #fff;
+}
 
-
+.intro__link {
+    padding: 11px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+}
 
 
 
