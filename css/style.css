@@ -1,8 +1,10 @@
-main {
+body {
     font-size: 16px;
     color: #303846;
     line-height: 1.5;
 }
+
+
 
 h1 {
     font-size: 3em;
@@ -14,3 +16,75 @@ h2 {
     margin-bottom: 0.5em;
     margin-top: 0;
 }
+
+
+
+/* Header */
+.header {
+background-color: #fff;
+height: 60px;
+padding: 5px 20px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+}
+
+.logo__img {
+
+}
+
+
+.img {
+    width: 28px;
+    height: 28px;
+}
+
+.logo__content {
+    margin-left: 13px;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav__link {
+    margin-left: 15px;
+    color: #303846;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
