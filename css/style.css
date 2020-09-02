@@ -73,6 +73,8 @@ padding: 5px 20px;
 }
 
 .intro {
+    width: 1000px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -95,6 +97,88 @@ padding: 5px 20px;
     text-decoration: none;
     margin-top: 5px;
 }
+
+
+/* Advantages */
+
+.section {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.advantages__item {
+    width: 30%;
+    padding: 0 33px;
+}
+
+
+/* About */
+.section__about {
+    background: #f7f7f7;
+}
+
+.about {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.about__content {
+    width: 45%;
+}
+
+.about__photo {
+    width: 30%;
+    margin-left: 120px;
+}
+
+.about__img {
+    width: 290px;
+    height: 190px;
+}
+
+/* Place */
+
+.place {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.place__photo {
+    width: 30%;
+}
+
+.place__img {
+    width: 300px;
+    height: 180px;
+}
+
+.place__content {
+    width: 45%;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
