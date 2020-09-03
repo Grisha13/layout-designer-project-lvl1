@@ -18,9 +18,9 @@
         </div>
 
         <nav class="nav">
-            <a href="#" class="nav__link">Преимущества</a>
-            <a href="#" class="nav__link">О ЖК "Лунное море"</a>
-            <a href="#" class="nav__link">Места для отдыха</a>
+            <a href="advantages" class="nav__link">Преимущества</a>
+            <a href="about" class="nav__link">О ЖК "Лунное море"</a>
+            <a href="place" class="nav__link">Места для отдыха</a>
         </nav>
 
     </div>
@@ -38,7 +38,7 @@
             <h1>ЖК "Лунное море"</h1>
             <p>Место, откуда не хочется улетать</p>
 
-            <a class="intro__link" href="">Забрoнировать</a>
+            <a class="intro__link" href="request">Забрoнировать</a>
 
         </div>
     </div>
@@ -46,7 +46,7 @@
 
 
 <!-- Advantages-->
-<section class="section">
+<section class="section" id="advantages">
     <div class="advantages">
         <div class="advantages__item">
             <h2>Уникальный вид</h2>
@@ -67,7 +67,7 @@
 
 
 <!-- About -->
-<section class="section__about">
+<section class="section__about" id="about">
     <div class="about">
         <div class="about__content">
             <h2>О ЖК «Лунное море»</h2>
@@ -82,7 +82,7 @@
 
 
 <!-- Place -->
-<section>
+<section class="section__place" id="place">
     <div class="place">
         <div class="place__photo">
             <img src="/images/moon-2.jpg" alt="" class="place__img">
@@ -94,6 +94,71 @@
         </div>
     </div>
 </section>
+
+<!-- Request -->
+<section class="section__request" id="request">
+  <div class="request">
+
+    <div>
+       <h1 class="request__h1">Оставьте заявку сегодня!</h1>
+
+        <fieldset class="fieldset__request">
+
+            <legend class="legend__request">Параметры квартиры</legend>
+
+                 <div class="request__item">
+                     <div class="request__col">
+                         <p class="request__p">Количество комнат:</p>
+                         <p class="request__p">Отделка:</p>
+                     </div>
+
+                     <div class="request__col">
+                       <div>
+                           <select name="" id="" class="select">
+                               <option value="">1</option>
+                               <option value="">2</option>
+                               <option value="">3</option>
+                            </select>
+                        </div>
+
+                         <div>
+                            <select name="" id="" class="select">
+                                <option value="">Без отделки</option>
+                                <option value="">С отделкой</option>
+                                <option value="">С частичной отделкой</option>
+                             </select>
+                         </div>
+                     </div>
+                 </div>
+        </fieldset>
+
+
+
+        <fieldset class="fieldset__request">
+            <legend class="legend__request">Контактная информация</legend>
+
+            <div class="request__item">
+                <div class="request__col">
+                    <p class="request__p">Имя:</p>
+                    <p class="request__p">Телефон:</p>
+                    <p class="request__p">E-mail:</p>
+                </div>
+
+                <div class="request__col">
+                    <input type="text" class="input">
+                    <input type="text" class="input">
+                    <input type="text" class="input">
+                </div>
+            </div>
+        </fieldset>
+
+         <div class="btn">
+            <button class="request__btn">Отправить</button>
+          </div>
+      </div>
+    </div><!--request -->
+</section>
+
 
 </main>
 
