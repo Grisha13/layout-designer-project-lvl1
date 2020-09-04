@@ -250,6 +250,52 @@ padding: 5px 20px;
 }
 
 
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #303846;
+    padding: 60px 0;
+    margin-top: auto;
+}
+
+.footer__item {
+    display: flex;
+}
+
+.footer__img {
+    padding: 19px 10px;
+    width: 28px;
+    height: 28px;
+}
+
+.footer__h {
+    color: #fff;
+}
+
+.footer__small {
+    display: flex;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.small {
+    color: #fff;
+}
+
+.ul {
+    color: #fff;
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
 
 
 
