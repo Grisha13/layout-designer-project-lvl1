@@ -8,8 +8,6 @@
 <body>
 
 <header class="header">
-    <div class="header-inner">
-
         <div class="logo">
             <div>
                 <img class="img" src="images/logo.svg" alt="">
@@ -22,14 +20,13 @@
             <a href="about" class="nav-link">О ЖК "Лунное море"</a>
             <a href="place" class="nav-link">Места для отдыха</a>
         </nav>
-
-    </div>
 </header>
 
 <main>
 
 <!-- Intro -->
-<section class="section-intro">
+<section class="background-intro">
+   <div class="container">
     <div class="intro">
         <div>
             <img class="intro-img" src="images/logo.svg" alt="">
@@ -38,15 +35,18 @@
             <h1>ЖК "Лунное море"</h1>
             <p>Место, откуда не хочется улетать</p>
 
-            <a class="intro-link" href="request">Забрoнировать</a>
+            <a class="button  intro-link" href="request">Забрoнировать</a>
 
         </div>
     </div>
+  </div>
 </section>
 
 
 <!-- Advantages-->
-<section class="section" id="advantages">
+<section id="advantages">
+
+   <div class="container">
     <div class="advantages">
         <div class="advantages-item">
             <h2>Уникальный вид</h2>
@@ -63,11 +63,13 @@
             <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
         </div>
     </div>
+ </div>
 </section>
 
 
 <!-- About -->
-<section class="section__about" id="about">
+<section class="background-about" id="about">
+   <div class="container">
     <div class="about">
         <div class="about-content">
             <h2>О ЖК «Лунное море»</h2>
@@ -78,11 +80,13 @@
             <img class="about-img" src="images/moon-1.jpg" alt="">
         </div>
     </div>
+  </div>
 </section>
 
 
 <!-- Place -->
 <section id="place">
+   <div class="container">
     <div class="place">
         <div class="place-photo">
             <img src="images/moon-2.jpg" alt="" class="place-img">
@@ -93,14 +97,15 @@
             <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
         </div>
     </div>
+ </div>
 </section>
 
 <!-- Request -->
-<section class="section-request" id="request">
-  <div class="request">
+<section class="background-request" id="request">
 
-    <div>
-       <h1 class="request-h1">Оставьте заявку сегодня!</h1>
+ <div class="container">
+      <div class="request">
+       <h3 class="request-h3">Оставьте заявку сегодня!</h3>
 
         <fieldset class="fieldset-request">
 
@@ -130,6 +135,7 @@
                          </div>
                      </div>
                  </div>
+
         </fieldset>
 
 
@@ -153,10 +159,10 @@
         </fieldset>
 
          <div class="btn">
-            <button class="request-btn">Отправить</button>
+            <button class="button  request-btn">Отправить</button>
           </div>
-      </div>
-    </div><!--request -->
+        </div>
+    </div>
 </section>
 
 </main>
