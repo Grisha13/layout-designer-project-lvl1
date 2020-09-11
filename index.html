@@ -7,12 +7,12 @@
 </head>
 <body>
 
-<header class="header">
-        <div class="logo">
+<header class="header  bold">
+        <div class="display-flex">
             <div>
                 <img class="img" src="images/logo.svg" alt="">
             </div>
-            <div class="logo-content">Лунное море</div>
+            <div class="m-left">Лунное море</div>
         </div>
 
         <nav class="nav">
@@ -22,16 +22,16 @@
         </nav>
 </header>
 
-<main>
+<main class="m-top">
 
 <!-- Intro -->
-<section class="background-intro">
+<section class="background-space">
    <div class="container">
-    <div class="intro">
+    <div class="text-align-center">
         <div>
             <img class="intro-img" src="images/logo.svg" alt="">
         </div>
-        <div class="intro-content">
+        <div class="color-fff">
             <h1>ЖК "Лунное море"</h1>
             <p>Место, откуда не хочется улетать</p>
 
@@ -47,7 +47,6 @@
 <section id="advantages">
 
    <div class="container">
-    <div class="advantages">
         <div class="advantages-item">
             <h2>Уникальный вид</h2>
             <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -63,15 +62,13 @@
             <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
         </div>
     </div>
- </div>
 </section>
 
 
 <!-- About -->
-<section class="background-about" id="about">
+<section class="background-grey" id="about">
    <div class="container">
-    <div class="about">
-        <div class="about-content">
+        <div class="w-45">
             <h2>О ЖК «Лунное море»</h2>
             <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
             <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
@@ -80,15 +77,13 @@
             <img class="about-img" src="images/moon-1.jpg" alt="">
         </div>
     </div>
-  </div>
 </section>
 
 
 <!-- Place -->
 <section id="place">
    <div class="container">
-    <div class="place">
-        <div class="place-photo">
+        <div class="w-30">
             <img src="images/moon-2.jpg" alt="" class="place-img">
         </div>
         <div class="place-content">
@@ -97,27 +92,25 @@
             <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
         </div>
     </div>
- </div>
 </section>
 
 <!-- Request -->
-<section class="background-request" id="request">
-
+<section class="background-grey" id="request">
  <div class="container">
-      <div class="request">
+      <div class="w-1000">
        <h3 class="request-h3">Оставьте заявку сегодня!</h3>
 
         <fieldset class="fieldset-request">
 
             <legend class="legend-request">Параметры квартиры</legend>
 
-                 <div class="request-item">
-                     <div class="request-col">
+                 <div class="display-flex">
+                     <div class="w-50">
                          <p class="request-p">Количество комнат:</p>
                          <p class="request-p">Отделка:</p>
                      </div>
 
-                     <div class="request-col">
+                     <div class="w-50">
                        <div>
                            <select name="" id="" class="select">
                                <option value="">1</option>
@@ -141,16 +134,16 @@
 
 
         <fieldset class="fieldset-request">
-            <legend class="legend__request">Контактная информация</legend>
+            <legend class="legend-request">Контактная информация</legend>
 
-            <div class="request-item">
-                <div class="request-col">
+            <div class="display-flex">
+                <div class="w-50">
                     <p class="request-p">Имя:</p>
                     <p class="request-p">Телефон:</p>
                     <p class="request-p">E-mail:</p>
                 </div>
 
-                <div class="request-col">
+                <div class="w-50">
                     <input type="text" class="input">
                     <input type="text" class="input">
                     <input type="text" class="input">
@@ -170,28 +163,29 @@
 <!-- Footer -->
 <footer class="footer">
     <div>
-        <div class="footer-item">
+        <div class="display-flex">
             <div>
                 <img class="footer-img" src="images/logo.svg" alt="">
             </div>
-            <div><h3 class="footer-h">Лунное море</h3></div>
+            <div><h3 class="color-fff">Лунное море</h3></div>
         </div>
-        <div class="footer-small"><small class="small"> &#169; 2032 год</small></div>
+        <div class="footer-small"><small class="color-fff"> &#169; 2032 год</small></div>
     </div>
     <div>
-       <div><h3 class="footer-h">Проектная документация</h3></div>
+       <div><h3 class="color-fff">Проектная документация</h3></div>
         <ul class="ul">
             <li><a href="#">Скачать</a></li>
             <li><a href="#">Посмотреть на сайте</a></li>
         </ul>
     </div>
     <div>
-        <div><h3 class="footer-h">О застройщике</h3></div>
+        <div><h3 class="color-fff">О застройщике</h3></div>
         <ul class="ul">
             <li><a href="#">Отзывы</a></li>
             <li><a href="#">Сайт компании</a></li>
         </ul>
     </div>
+
 </footer>
 
 </body>
