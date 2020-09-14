@@ -1,2 +1,2 @@
-Grisha19-moonsea.surge.sh
+Gr-moonsea.surge.sh
 
